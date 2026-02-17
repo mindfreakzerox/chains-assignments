@@ -1,0 +1,27 @@
+{
+  "slug": "simple-storage",
+  "title": "Simple Storage",
+  "description": "Implement a basic storage contract with setter/getter and event emission.",
+  "difficulty": "beginner",
+  "language": "solidity",
+  "framework": "foundry",
+  "solidityVersion": "0.8.20",
+  "entrypoint": "src/SimpleStorage.sol",
+  "tests": {
+    "public": "project/test/Public.t.sol",
+    "hidden": "hidden-tests/Hidden.t.sol"
+  },
+  "skeleton": {
+    "root": "project",
+    "studentFacing": [
+      "foundry.toml",
+      "src/SimpleStorage.sol",
+      "test/Public.t.sol",
+      "README.md"
+    ],
+    "hidden": [
+      "hidden-tests/Hidden.t.sol"
+    ],
+    "solutionRoot": "solution"
+  }
+}
