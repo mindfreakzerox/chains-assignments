@@ -1,0 +1,27 @@
+{
+  "slug": "reentrancy-vault",
+  "title": "Reentrancy-Safe Vault",
+  "description": "Patch a vulnerable withdraw function using CEI/nonReentrant.",
+  "difficulty": "intermediate",
+  "language": "solidity",
+  "framework": "foundry",
+  "solidityVersion": "0.8.20",
+  "entrypoint": "src/Vault.sol",
+  "tests": {
+    "public": "project/test/Public.t.sol",
+    "hidden": "hidden-tests/Hidden.t.sol"
+  },
+  "skeleton": {
+    "root": "project",
+    "studentFacing": [
+      "foundry.toml",
+      "src/Vault.sol",
+      "test/Public.t.sol",
+      "README.md"
+    ],
+    "hidden": [
+      "hidden-tests/Hidden.t.sol"
+    ],
+    "solutionRoot": "solution"
+  }
+}

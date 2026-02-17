@@ -1,0 +1,27 @@
+{
+  "slug": "erc20-permit",
+  "title": "ERC20 Permit",
+  "description": "Add EIP-2612 permit support and test replay/deadline protections.",
+  "difficulty": "advanced",
+  "language": "solidity",
+  "framework": "foundry",
+  "solidityVersion": "0.8.20",
+  "entrypoint": "src/PermitToken.sol",
+  "tests": {
+    "public": "project/test/Public.t.sol",
+    "hidden": "hidden-tests/Hidden.t.sol"
+  },
+  "skeleton": {
+    "root": "project",
+    "studentFacing": [
+      "foundry.toml",
+      "src/PermitToken.sol",
+      "test/Public.t.sol",
+      "README.md"
+    ],
+    "hidden": [
+      "hidden-tests/Hidden.t.sol"
+    ],
+    "solutionRoot": "solution"
+  }
+}

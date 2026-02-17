@@ -1,0 +1,27 @@
+{
+  "slug": "uups-upgrade",
+  "title": "UUPS Upgradeable Contract",
+  "description": "Implement a UUPS upgradeable contract with initializer, owner-gated upgrades, and storage preservation across versions.",
+  "difficulty": "advanced",
+  "language": "solidity",
+  "framework": "foundry",
+  "solidityVersion": "0.8.20",
+  "entrypoint": "src/UpgradableBox.sol",
+  "tests": {
+    "public": "project/test/Public.t.sol",
+    "hidden": "hidden-tests/Hidden.t.sol"
+  },
+  "skeleton": {
+    "root": "project",
+    "studentFacing": [
+      "foundry.toml",
+      "src/UpgradableBox.sol",
+      "test/Public.t.sol",
+      "README.md"
+    ],
+    "hidden": [
+      "hidden-tests/Hidden.t.sol"
+    ],
+    "solutionRoot": "solution"
+  }
+}

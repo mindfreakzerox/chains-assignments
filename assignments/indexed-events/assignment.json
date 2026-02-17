@@ -1,0 +1,27 @@
+{
+  "slug": "indexed-events",
+  "title": "Indexed Events",
+  "description": "Emit indexed events for deposits and withdrawals and verify topics are correct.",
+  "difficulty": "intermediate",
+  "language": "solidity",
+  "framework": "foundry",
+  "solidityVersion": "0.8.20",
+  "entrypoint": "src/Bank.sol",
+  "tests": {
+    "public": "project/test/Public.t.sol",
+    "hidden": "hidden-tests/Hidden.t.sol"
+  },
+  "skeleton": {
+    "root": "project",
+    "studentFacing": [
+      "foundry.toml",
+      "src/Bank.sol",
+      "test/Public.t.sol",
+      "README.md"
+    ],
+    "hidden": [
+      "hidden-tests/Hidden.t.sol"
+    ],
+    "solutionRoot": "solution"
+  }
+}

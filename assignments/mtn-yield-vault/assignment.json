@@ -1,0 +1,31 @@
+{
+  "slug": "mtn-yield-vault",
+  "title": "Yield-Bearing Vault with Deposit Router",
+  "description": "Build a MTN deposit router + ERC-4626 vault that streams rewards to depositors.",
+  "difficulty": "advanced",
+  "language": "solidity",
+  "framework": "foundry",
+  "solidityVersion": "0.8.23",
+  "entrypoint": "src/DepositContract.sol",
+  "tests": {
+    "public": "project/test/Public.t.sol",
+    "hidden": "hidden-tests/Hidden.t.sol"
+  },
+  "skeleton": {
+    "root": "project",
+    "studentFacing": [
+      "foundry.toml",
+      "src/MTN.sol",
+      "src/WrappedMTN.sol",
+      "src/MTNStaking.sol",
+      "src/AutoCompoundVault.sol",
+      "src/DepositContract.sol",
+      "test/Public.t.sol",
+      "README.md"
+    ],
+    "hidden": [
+      "hidden-tests/Hidden.t.sol"
+    ],
+    "solutionRoot": "solution"
+  }
+}
